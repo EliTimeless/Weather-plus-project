@@ -1,0 +1,151 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 20px auto;
+  background-image: url(media/pexels-pixabay-258100.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+i {
+  color: #eb6e4c;
+}
+.weather {
+  max-width: 700px;
+  max-height: 500px;
+  margin: 20px auto;
+  padding: 10px;
+  line-height: 30px;
+}
+
+.main {
+  background: linear-gradient(15deg, #73b6e0 10%, #11508f 80%);
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 5px 5px;
+  box-shadow: 0px 0px 47px 30px rgba(255, 255, 255, 0.75);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 35px;
+}
+h2 {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+a {
+  font-weight: bold;
+  color: #cb6a4f;
+}
+a:hover {
+  color: #0a3f4e;
+}
+form {
+  font-size: 15px;
+  margin: 30px 20px 10px 20px;
+}
+input {
+  padding: 5px 15px;
+  border-radius: 10px;
+  text-align: center;
+  font-style: italic;
+  box-shadow: 0px 0px 67px 4px #6698af;
+  border: solid 2px rgb(255, 255, 255);
+}
+
+.submit {
+  color: #f9f9f9;
+  background-color: #6698af;
+  box-shadow: 0px 0px 67px 4px #6698af;
+}
+#current-location {
+  color: rgb(255, 255, 255);
+}
+#current-location:hover {
+  color: #9ee0ff;
+}
+
+.btn {
+  text-align: left;
+  font-size: 15px;
+  font-style: italic;
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 0 10px;
+  box-shadow: 0px 0px 67px 4px #6698af;
+}
+
+#curr-date,
+#clouds {
+  font-size: 20px;
+  color: #bad6e2;
+}
+
+#temperature {
+  font-size: 35px;
+  color: #eb6e4c;
+}
+
+.degrees {
+  font-size: 20px;
+  position: relative;
+  top: -10px;
+}
+
+.first,
+.second {
+  color: #7699b4;
+}
+.first {
+  font-size: 20px;
+}
+.second {
+  font-size: 30px;
+}
+
+.other-days {
+  color: #f8b39f;
+  text-align: left;
+  font-weight: bold;
+  font-size: 16px;
+  margin: 10px 10px;
+}
+
+.weather-forecast {
+  margin: 10px 20px;
+}
+.forecast-days {
+  width: 80%;
+}
+
+.col {
+  background-color: #a0c4da;
+  border-radius: 20px;
+}
+
+.temp-max,
+.temp-min {
+  font-size: 13px;
+}
+.temp-min {
+  opacity: 0.6;
+}
+
+.day {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+}
+.temp {
+  font-size: 16px;
+  color: #eb6e4c;
+}
+
+.open-source {
+  display: block;
+  margin: 0 10px;
+}
