@@ -24,7 +24,7 @@ let months = [
 ];
 
 function formatDay(timestamp) {
-  let date = new Date(timestamp * 1000);
+  let date = new Date(timestamp * 1000); //*1000, protože hodnoty jsou sekundách a já potřebuju milisekundy
   let day = date.getDay();
   let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
