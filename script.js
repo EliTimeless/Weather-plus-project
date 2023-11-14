@@ -50,7 +50,6 @@ function formatDate(timestamp) {
 
 function displayForecast(response) {
   let forecast = response.data.daily;
-  console.log(forecast);
   let forecastElement = document.querySelector("#forecast");
   let forecastHTML = `<div class="row text-center">`;
 
@@ -58,13 +57,13 @@ function displayForecast(response) {
     if (index < 7 && index > 0) {
       forecastHTML =
         forecastHTML +
-        ` <div class="col">
+        ` <div class="col-sm">
               <div class="day" id="day-forecast">${formatDay(
                 forecastDay.dt
               )}</div>
               <span class="temp-max" id="max-forecast">${Math.round(
                 forecastDay.temp.max
-              )} ºC </span>/<span
+              )}</span>/<span
                 class="temp-min"
                 id="min-forecast"
                 >${Math.round(forecastDay.temp.min)} ºC</span

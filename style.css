@@ -117,26 +117,30 @@ input {
 
 .weather-forecast {
   margin: 10px 20px;
+  max-width: 100%;
 }
 .forecast-days {
-  width: 80%;
+  width: 70%;
 }
 
-.col {
-  background-color: #a0c4da;
+.col-sm {
+  background-color: #94c0db;
   border-radius: 20px;
+  font-size: 15px;
 }
 
 .temp-max,
 .temp-min {
-  font-size: 13px;
+  font-size: 16px;
 }
 .temp-min {
   opacity: 0.6;
 }
-
+.speed {
+  font-size: 13px;
+}
 .day {
-  color: #ffffff;
+  color: white;
   font-weight: bold;
   font-size: 20px;
 }
